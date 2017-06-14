@@ -1,5 +1,5 @@
-from urllib.request import urlopen
-from urllib.error import HTTPError
+from urllib import urlopen
+from urllib2 import HTTPError
 from bs4 import BeautifulSoup
 import sys
 
